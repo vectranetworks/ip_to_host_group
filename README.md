@@ -34,6 +34,7 @@ For groups that contain a space or other characters that are interpreted by the 
 Example: "Cognito - Scanners"
 
 ## Recommendations
+This script is intended for hosts that are statically IP addressed.  Pulling host containers for dynamically assigned IPs will result in undesirable outcome.   
 After the script has been ran, review the output in the ip_to_host_group.log file to ensure proper operation.
 Review the group in Cognito Detect and adjust the host membership as necessary.
 
